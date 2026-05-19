@@ -19,10 +19,10 @@ def main() -> None:
         b = int(input("두 번째 정수를 입력하세요: ").strip())
         result = calculate(a, b, op)
         print(f"결과: {result}")
-    except ValueError as error:
-        print(f"입력 오류: {error}")
-    except ZeroDivisionError as error:
-        print(f"계산 오류: {error}")
+    except ValueError as Error:
+        print(f"입력 오류: {Error}")
+    except ZeroDivisionError as Error:
+        print(f"계산 오류: {Error}")
 
 
 if __name__ == "__main__":
